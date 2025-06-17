@@ -1,0 +1,15 @@
+# Inisialisasi git di folder proyek
+git init
+
+# Menambahkan semua file ke staging area
+git add .
+
+# Commit perubahan
+git commit -m "Initial commit"
+
+# Menghubungkan repositori lokal ke repositori GitHub
+git remote add origin https://github.com/username/nama-repo.git
+
+# Push ke GitHub (branch utama biasanya 'main' atau 'master')
+git branch -M main
+git push -u origin main
